@@ -34,6 +34,8 @@ public :
 
      // Pop operation : remove the topmost element from the stack 
      void pop() {
-        
+        if (isEmpty()) {
+
+        }
      }
 };
