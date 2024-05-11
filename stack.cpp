@@ -44,7 +44,9 @@ public :
 
      // Peek/Top Operation : retrieve the value of the topmost element without removing it
      void peek() {
-        
+        if (top == NULL) {
+            
+        }
      }
      
 
